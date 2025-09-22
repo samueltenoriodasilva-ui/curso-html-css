@@ -1,0 +1,152 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgba(148, 255, 148, 0.418);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.cabecario{
+    background:linear-gradient(to bottom, #27a15a, #134b2a);
+    margin: auto;
+}
+
+.cabecario h1{
+    color: azure;
+    text-align: center;
+    font-size: 3em;
+    margin: auto;
+}
+
+.cabecario p{
+    color: azure;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.cabecario nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a{
+    color: azure;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.cabecario a:hover{
+    background: #cacaca67;
+}
+
+#caixamenu{
+    background-color: azure;
+    border-radius: 5px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+}
+
+section h1{
+    color: #103d23;
+    margin: 40px 0px 20px 30px;
+}
+
+section h2{
+    color: #165731;
+    font-size: 1.7em;
+}
+
+section p{
+    font-size: 1.2em;
+}
+
+#DanMorrill{
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+}
+
+#Bugadroid{
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+}
+
+#IrinaBlok{
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: auto;
+    display: block;
+}
+
+.video{
+    padding: 10px;
+    background-color:  #103d23;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.video iframe{
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.instrucao{
+    background-color: #18ca62bd;
+    display: block;
+    margin: auto;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.instrucao h3{
+    color: #103d23;
+    font-size: 1.4em;
+}
+
+.instrucao p{
+    color: black;
+}
+
+.instrucao a{
+    color: #103d23;
+    text-decoration: none;  
+}
+
+.instrucao li{
+   font-size: 1.3em;
+}
+
+.instrucao a:hover{
+    background-color: rgba(240, 255, 255, 0.342);
+}
+
+footer{
+    background: #103d23;
+    margin: auto;
+    height: 60px;
+    padding: 10px;
+}
+
+footer p{
+    color: azure;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
