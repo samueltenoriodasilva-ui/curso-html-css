@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#cabecario{
+    background-color: black;
+    color: aliceblue;
+    height: 130px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+#cabecario h1{
+    font-size: 3.5em;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    max-width: 900px;
+}
+
+#cabecario p{
+    font-size: 1.2em;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform:translate(-50%, -50%);
+}
+
+#cabecario a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#cabecario a:hover{
+    text-decoration: underline;
+}
+
+#conteudo{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#conteudo p{
+    width: 400px;
+    margin: 100px;
+}
+
+#conteudo .flor{
+   background-image:url(imagens/flor.webp);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   color: rgb(255, 255, 255);
+}
+
+#conteudo section{
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 550px;
+    height: 700px;
+    position: absolute;
+    left: 1%;
+}
+
+#conteudo .livro{
+   background-image:url(imagens/livro.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    height: 90px;
+}
+
+footer p{
+    font-size: 1.4em;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50% -50%);
+}
