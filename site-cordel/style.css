@@ -64,8 +64,7 @@
     background-color: rgba(0, 0, 0, 0.788);
     width: 550px;
     height: 700px;
-    position: absolute;
-    left: 1%;
+    display: inline-block;
 }
 
 #conteudo .livro{
