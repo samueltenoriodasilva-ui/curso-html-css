@@ -58,6 +58,7 @@
    background-size: cover;
    height: 700px;
    color: rgb(255, 255, 255);
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
 }
 
 #conteudo section{
@@ -74,6 +75,7 @@
    background-size: cover;
    height: 700px;
    color: rgb(255, 255, 255);
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
 }
 
 footer{
