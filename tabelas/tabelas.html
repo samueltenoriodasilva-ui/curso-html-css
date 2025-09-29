@@ -13,6 +13,22 @@
         body{
             text-align: center;
         }
+        #boletim{
+            border-collapse:collapse ;
+        }
+        th{
+            background-color: rgb(75, 206, 162);
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 2em;
+            font-weight: bold;
+        }
+        table{
+            margin: auto;
+            margin-top: 59px;
+        }
     </style>
 </head>
 <body>
@@ -72,6 +88,67 @@
     <tr>
         <td colspan="4">N</td>
     </tr>
+</table>
+
+<table id="boletim">
+    <caption>boletim</caption>
+    <thead>
+        <th rowspan="2">área</th>
+        <th rowspan="2">Disciplinas</th>
+        <th colspan="2">Notas</th>
+        <th rowspan="2">médias</th>
+        <tr> <th>nota1</th> <th>nota2</th> </tr>
+    </thead>
+    <tbody>
+        <th rowspan="4">Exatas</th>
+        <td>Matematica</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <td>0.0</td>
+        <tr>
+            <td>
+                quimica
+            </td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>ficica</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>biologia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+
+        <th colspan="4">Medias de exatas</th>
+        <th>0.0</th>
+
+        <tr>
+            <th rowspan="2">humanas</th>
+            <td>Historia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+
+        <tr>
+            <td>geografia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        
+        <tr>
+            <th colspan="4">Medias humanas</th>
+            <th>0.0</th>
+        </tr>
+    </tbody>
 </table>
 
 </body>
