@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  
+}
+
+main{
+    background-color: black;
+    position: relative;
+    height: 100vh;
+}
+
+#pc{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#pc img{
+    width: 800px;
+    height: 800px;
+}
+
+iframe {
+    position: absolute;
+    top: 344px;
+    left: 398px;
+    transform: translate(-50%, -50%);
+    width: 652px;
+    height: 372px;
+}
+
+#redes-sociais img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
