@@ -1,9 +1,42 @@
 
-## 🌐 Sites publicados no GitHub Pages
+# 🌐 Projetos - Interface Web
 
-- [📱 Site Android](https://samueltenoriodasilva-ui.github.io/curso-html-css/site-android/)
-- [📜 Site Cordel](https://samueltenoriodasilva-ui.github.io/curso-html-css/site-cordel/)
-- [🎨 Site Cores Simples](https://samueltenoriodasilva-ui.github.io/curso-html-css/site-cores-simples/)
+Repositório com diversos sites e exercícios de HTML e CSS.  
+Clique nos links abaixo para acessar cada projeto online:
 
-- [ Site rede sociais] (https://samueltenoriodasilva-ui.github.io/
-curso-html-css/site-redes)
+---
+
+## 📱 [Site Android](https://samueltenoriodasilva.github.io/samueltenoriodasilva-ui/site-android/)
+Um site inspirado no mascote **Android**.
+
+---
+
+## 📜 [Site Cordel](https://samueltenoriodasilva.github.io/samueltenoriodasilva-ui/site-cordel/)
+Projeto baseado em **cordel literário**, com estilo artístico e tipográfico.
+
+---
+
+## 🎨 [Site Cores Simples](https://samueltenoriodasilva.github.io/samueltenoriodasilva-ui/site-cores-simples/)
+Exercício com **cores básicas e contrastes**.
+
+---
+
+## 🌎 [Site Redes](https://samueltenoriodasilva.github.io/samueltenoriodasilva-ui/site-redes/)
+Site com links de **redes sociais**.
+
+---
+
+## 👥 [Site Social](https://samueltenoriodasilva.github.io/samueltenoriodasilva-ui/site-social/)
+Projeto sobre **redes sociais e interação**.
+
+---
+
+## 📊 [Tabelas](https://samueltenoriodasilva.github.io/samueltenoriodasilva-ui/tabelas/)
+Exercícios de **tabelas em HTML**.
+
+---
+
+## 🛠️ Como usar localmente
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/samueltenoriodasilva/samueltenoriodasilva-ui.git
