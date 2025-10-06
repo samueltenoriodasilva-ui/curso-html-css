@@ -22,11 +22,6 @@ Site com links de **redes sociais**.
 
 ---
 
-## 👥 [Site Social](https://samueltenoriodasilva-ui.github.io/curso-html-css/site-social/)
-Projeto sobre **redes sociais e interação**.
-
----
-
 ## 📊 [Tabelas](https://samueltenoriodasilva-ui.github.io/curso-html-css/tabelas/tabelas.html)
 Exercícios de **tabelas em HTML**.
 
