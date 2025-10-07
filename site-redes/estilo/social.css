@@ -7,15 +7,17 @@
         .github{
             font-size: 2em;
             text-align: center;
-            background: linear-gradient( to bottom, rgb(99, 99, 98), rgb(31, 30, 30));
+            background: linear-gradient( to bottom, rgb(6, 224, 213), rgb(17, 3, 68));
+            
         }
 
-       .github img{
-            border-radius: 50%;
+        .github img{
+            border-radius: 2pc;
             width: 300PX;
+            border: solid 2px black;
         }
 
-       .github a{
+        .github a{
             display: block;
             color: aliceblue;
             text-decoration: none;
@@ -26,7 +28,7 @@
             border-radius: 4px;
         }
 
-       .github p{
+        .github p{
             border-bottom: 2px dashed rgb(161, 161, 161);
             width: 300px;
             margin: auto;
@@ -35,7 +37,54 @@
             color: azure;
         }
 
-      .github a:hover{
+        .github a:hover{
             background-color: rgba(148, 88, 88, 0.438);
             
         }
+
+           body.insta{
+            padding: 0;
+            margin: 0;
+
+        }
+
+        .instagram{
+            color: aliceblue;
+            text-align: center;
+            font-size: 1.3em;
+            font-style: italic;
+        }
+
+        .instagram h1{
+            background: linear-gradient( to left, rgb(255, 123, 0), rgb(142, 29, 194));
+            margin: 0;
+        }
+        
+        .sofrimento {
+            background-color: rgb(165, 58, 58);
+            height: 100%;
+        }
+
+        .instagram img{
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+        }
+
+        .instagram a{
+            text-decoration: none;
+            font-size: 1.2em;
+            color: aliceblue;
+            background-color: black;
+            
+        }
+
+        .instagram a:hover{
+            background:linear-gradient( to left, rgb(255, 123, 0), rgb(142, 29, 194)) ;
+            padding: 2px;
+        }
+
+        .instagram div{
+            background-color: black;
+        }
+
+        
