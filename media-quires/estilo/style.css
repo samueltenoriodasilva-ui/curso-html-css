@@ -22,7 +22,7 @@ html, body {
 }
 
 menu{
-    display: flex;
+    display: none;
     justify-content: left;
     gap: 40px;
     font-size: 1.3em;

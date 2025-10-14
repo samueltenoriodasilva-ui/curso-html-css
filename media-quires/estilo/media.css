@@ -1,9 +1,22 @@
 @charset "utf-8";
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   /* iPhones grandes, Androids padrão */
   menu{
+    display: none;
+    text-align: center;
+    background-color:rgb(24, 145, 145); ;
+    padding: 0;
+  }
+
+  menu a{
     display: block;
-    justify-content:center ;
+    border-top: 3px solid rgb(47, 47, 206);;
+    border-radius: 0;
+  }
+
+  menu a:hover{
+    background-color:rgb(39, 185, 185);;
+    transform: scale(1.2);
   }
 }
