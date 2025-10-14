@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+html, body {
+    background-color: lightblue;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecario{
+    background-color: rgb(47, 47, 206);
+    text-align: center;
+}
+
+.cabecario h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    color: aliceblue;
+    padding: 10px;
+}
+
+menu{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    font-size: 1.3em;
+    padding: 10px;
+    list-style: none;
+    
+}
+
+menu a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(24, 145, 145);
+    padding: 2px;
+    border-radius: 7px 0px 7px 0px;
+}
+
+article{
+    background-color: rgba(143, 143, 143, 0.637);
+    width: 80vw;
+    height: 90vw;
+    margin: auto;
+    padding: 15px;
+    margin-top: 70px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.473);
+}
+
+article h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 2.4em;
+}
+
+article p{
+    text-align: justify;
+    font-size: 1.3em;
+    margin: 30px;
+}
