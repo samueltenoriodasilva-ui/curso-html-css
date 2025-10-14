@@ -22,13 +22,24 @@ html, body {
 }
 
 menu{
-    display: none;
+    display: flex;
     justify-content: left;
     gap: 40px;
     font-size: 1.3em;
     padding: 10px;
     list-style: none;
     
+}
+
+i#burguer{
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+}
+
+i#burguer:hover{
+    background-color: aliceblue ;
+    padding: 5px;
 }
 
 menu a{
