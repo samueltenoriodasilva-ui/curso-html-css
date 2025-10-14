@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* iPhones grandes, Androids padrão */
+  menu{
+    display: block;
+    justify-content:center ;
+  }
+}
