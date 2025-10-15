@@ -21,7 +21,19 @@
   }
 }
 
-@media all and (max-width: 768px) {
-  /* regras para mobile */
-  
+/* Quando a tela for maior que 768px (notebooks e PCs) */
+@media screen and (min-width: 768px) {
+  #burguer {
+    display: none; /* Esconde o ícone do menu */
+  }
+
+  menu#itens {
+    display: flex; /* Mostra o menu normal no PC */
+    justify-content: center;
+    gap: 20px;
+  }
+
+  menu#itens li {
+    display: inline-block;
+  }
 }
