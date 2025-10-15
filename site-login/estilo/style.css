@@ -17,7 +17,7 @@ body {
 section#login{
     background-color: aqua;
     display: flex;
-    width: 70vw;
+    width: 90vw;
     height: 70vh;
     margin: auto;
     position: relative;
