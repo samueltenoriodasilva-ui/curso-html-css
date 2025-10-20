@@ -6,27 +6,34 @@
 }
 
 body {
-  margin: 0;
-  height: 100vh; /* altura total da tela */
-  display: flex;
-  justify-content: center; /* centraliza na horizontal */
-  align-items: center; /* centraliza na vertical */
-  background: #f0f0f0;
+  background-color: rgba(28, 28, 131, 0.767);
 }
 
 section#login{
-    background-color: aqua;
-    display: flex;
-    width: 90vw;
-    height: 70vh;
-    margin: auto;
     position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-#imagem img{
-    width: 40vw;
-    height: 40vh;
+#imagem {
+    display: block;
+    background: url(../imagens/foto-login.jpg);
+    width:400px;
+    height:250px;
     background-size: cover;
-    background-position: center center;
+    background-position: center left;
     background-repeat: no-repeat;
+}
+
+#formulario{
+    display: block;
+    padding: 10px;
 }
