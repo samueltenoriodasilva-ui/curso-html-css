@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>login simples</title>
 </head>
 <body>
@@ -21,14 +22,20 @@
 
                 <form action="login.php" method="post"></form>
 
-                <label for="e-mail">E-email:</label>
-                <input type="email" name="email" id="iemail" placeholder="coloque seu E-mail" required>
+                <div class="campo">
+                    <label for="iemail">E-email:</label>
+                    <input type="email" name="email" id="iemail" placeholder="coloque seu E-mail" required>
+                </div>
 
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" id="isenha" placeholder="coloque sua senha" required maxlength="8"><br> 
+                <div class="campo">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha" placeholder="coloque sua senha" required maxlength="8"><br>
+                </div>
 
-                <input type="submit" value="enviar">
-                <a href="/">esqueci minha senha</a> 
+                <div class="enviar">
+                    <input type="submit" value="enviar">
+                    <a href="/">esqueci minha senha</a>
+                </div>
             </div>
         </section>
     </main>
