@@ -52,19 +52,25 @@ section#login{
 }
 
 #formulario > div.campo{
-    background-color: rgb(116, 50, 179);
+    background-color: rgba(117, 50, 179, 0.705);
     padding: 5px;
     border-radius: 5px;
     width: 70%;
     margin: auto;
     margin-bottom: 10px;
+    position: relative;
 }
 
 #formulario > div.campo > input{
-    width:  76%;
-    height: 24px;
+    width:  80%;
+    height: 34px;
     background-color: rgb(89, 55, 121);
     border: 2px solid black;
+    margin-bottom: 2px;
+    border-radius: 2pc;
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
 }
 
 #formulario > div.campo > input:hover{
@@ -83,6 +89,7 @@ section#login{
     background-color: rgb(89, 55, 121);
     border: 2px solid black;
     color: aliceblue;
+    border-radius: 5px;
 }
 
 .enviar input:hover{
@@ -99,9 +106,20 @@ section#login{
     color: aliceblue;
     background-color:rgb(89, 55, 121);
     border: 2px solid black;
+    border-radius: 5px;
 }
 
 .enviar a:hover{
     background-color:  rgb(159, 93, 221);
     text-decoration: underline;
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    font-size: 2em;
+    padding: 5px;
+}
+
+div.campo > input:focus-within{
+    background-color: aliceblue;
 }
