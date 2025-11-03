@@ -25,9 +25,15 @@ Site com links de **redes sociais**.
 ## 📊 [Tabelas](https://samueltenoriodasilva-ui.github.io/curso-html-css/tabelas/tabelas.html)
 Exercícios de **tabelas em HTML**.
 
+---
+
 ## 📜 [Site=Login](https://samueltenoriodasilva-ui.github.io/curso-html-css/site-login/index.html)
 **formulario em HTML**.
 
+---
+
 ## 🎨 [Site-Informativo](https://samueltenoriodasilva-ui.github.io/curso-html-css/site-informativo/index.html)
 **flex-content em HTML**.
+
+---
 
