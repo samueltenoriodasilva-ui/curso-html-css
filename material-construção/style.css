@@ -50,6 +50,8 @@ main.corpo{
     background-size: cover;
     background-position: center center;
     height: 450px;
+  
+    margin: auto;
 }
 
 .promocoes h2{
@@ -100,4 +102,16 @@ main.corpo{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 55%;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+.itens:hover{
+    transform: scale(1.1)
+}
+
+.itens2:hover{
+    transform: scale(1.1)
 }
