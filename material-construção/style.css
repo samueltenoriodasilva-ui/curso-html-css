@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*cabecario*/
+
+header.cabecario{
+    background-color: rgb(158, 73, 13);
+    padding: 10px;
+    height: 90px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecario ul{
+    list-style: none;
+}
+
+.cabecario li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.cabecario a{
+    background: rgba(253, 169, 1, 0.6);
+    color: aliceblue;
+    text-decoration: none;
+
+    font-size: 1.4em;
+    text-transform: capitalize;
+
+    border: 2px solid black;
+    padding: 5px;
+}
+
+/*corpo*/
+
+main.corpo{
+    height: 90vh;
+}
+
+.imagens div{
+    background-image: url(../material-construção/imagens/fundo-hedaer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+}
+
+.promocoes h2{
+    color: rgb(7, 7, 190);
+    font-size: 2.3em;
+    padding: 10px
+}
+
+.flexsivel {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.itens{
+    flex: 1 1 300px;
+
+    width: 100px;
+    height: 300px;
+    margin: 30px;
+
+    background-color: rgb(255, 124, 2);
+    border: 2px solid rgb(255, 124, 2);
+    
+    background-image: url(../material-construção/imagens/massa-corrida.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+.destaques h2{
+    color: blue;
+    font-size: 2.3em;
+    padding: 10px;
+}
+
+.itens2{
+    flex: 1 1 300px;
+
+    width: 100px;
+    height: 300px;
+    margin: 30px;
+
+    background-color: rgb(255, 124, 2);
+    border: 2px solid rgb(255, 124, 2);
+    
+    background-image: url(../material-construção/imagens/Material-de-Construcao.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
