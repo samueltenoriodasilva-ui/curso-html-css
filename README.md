@@ -37,7 +37,7 @@ Exercícios de **tabelas em HTML**.
 
 ---
 
-## 📜 [Site-construção](https://samueltenoriodasilva-ui.github.io/curso-html-css/material-costrução/index.html)
+## 📜 [Site-construção](https://samueltenoriodasilva-ui.github.io/curso-html-css/material-construção/index.html)
 **site teste em html**.
 
 ---
