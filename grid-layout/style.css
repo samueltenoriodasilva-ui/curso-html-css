@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    text-align: center;
+}
+
+.caixa1{
+    background-color: blue;
+    grid-area: 1 / 1 / 1 / 6 ;
+}
+
+.caixa2{
+    background-color: blueviolet;
+    grid-area: 2 / 1 / 2 / 6;
+    height: 30px;
+}
+
+.caixa3{
+    background-color: brown;
+    grid-area: 2 / 1 / 6 / 4 ;
+    margin-top: 30px;
+}
+
+.caixa4{
+    background-color: greenyellow;
+    grid-area: 2 / 4 / 6 / 6;
+    margin-top: 30px;
+}
+
+.caixa5{
+    background-color: aquamarine;
+    grid-area: 7 / 1 / 7/ 6;
+    height: 30px;
+
+}
