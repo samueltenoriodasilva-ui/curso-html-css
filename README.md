@@ -47,7 +47,7 @@ Exercícios de **tabelas em HTML**.
 
 ---
 
-## 🌎 [Alura-2](https://samueltenoriodasilva-ui.github.io/curso-html-css/media-quires/index.html)
+## 🌎 [Alura-2](https://samueltenoriodasilva-ui.github.io/curso-html-css/alura-3/index.html)
 **site teste em html**.
 
 ---
